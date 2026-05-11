@@ -1,1 +1,31 @@
 
+Create a basic Django website called Student Management System.
+
+Requirements
+Create a Django project named:
+student_project
+Create an app named:
+students
+Configure project and app URLs properly.
+Create pages:
+Home page (/)
+Students page (/students/)
+Use:
+Templates
+Static files (CSS)
+Template inheritance (base.html)
+Create the following templates:
+base.html
+home.html
+students.html
+Add a CSS file and connect it using {% load static %}.
+Create a model named Student with fields:
+name → CharField
+age → IntegerField
+email → EmailField
+course → CharField
+joined_date → DateField
+Register the model in admin.
+Run migrations and add at least 5 student records.
+Create views to:
+Show homepage
